@@ -9,54 +9,39 @@
             "author": "Federico Nassi",
             "description": "Starter PUH modules and tools for CMA",
             "category": "official",
-
             "type": "puh",
-
             "contains": [
                 "puh"
             ],
-
             "path": "packs/puh/cma-core-pack",
-
             "requires": [],
-
             "files": [
                 {
                     "name": "example.puh",
                     "type": "puh",
-                    "sha256": "REPLACE_WITH_SHA256"
+                    "sha256": "7da88ec6b9e030308469f823f57bfdebd53892c24463f36d429c8ff67c3ccb88"
                 }
             ],
-
             "changelog": [
                 "Updated package metadata",
                 "Added CMA 4.2 compatibility",
                 "Added integrity verification support"
             ]
         },
-
-
         {
             "name": "cma-official-extensions",
             "display_name": "CMA Official Extensions",
             "version": "1.1.0",
             "author": "Federico Nassi",
             "description": "Official DIH extensions for CMA",
-
             "category": "official",
-
             "type": "dih",
-
             "contains": [
                 "dih"
             ],
-
             "path": "packs/dih/cma-official-extensions",
-
             "requires": [],
-
             "files": [],
-
             "changelog": [
                 "Updated DIH compatibility",
                 "Improved extension loading"
