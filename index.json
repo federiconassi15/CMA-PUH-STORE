@@ -1,5 +1,6 @@
 {
     "store_version": "1.0.0",
+
     "packs": [
         {
             "name": "cma-core-pack",
@@ -7,8 +8,15 @@
             "version": "1.0.0",
             "author": "Federico Nassi",
             "description": "Starter modules for CMA",
-            "category": "official",
-            "url": "https://github.com/federiconassi15/CMA-PUH-STORE"
+
+            "download": {
+                "type": "github",
+                "url": "https://github.com/federiconassi15/CMA-PUH-STORE/releases/download/core/cma-core-pack.zip"
+            },
+
+            "contains": [
+                "puh"
+            ]
         }
     ]
 }
