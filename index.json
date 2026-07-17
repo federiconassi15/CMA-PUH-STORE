@@ -1,12 +1,12 @@
 {
-    "store_version": "1.0.0",
+    "store_version": "2.0.0",
     "packs": [
         {
             "name": "cma-core-pack",
             "display_name": "CMA Core Pack",
             "version": "1.0.0",
             "author": "Federico Nassi",
-            "description": "Starter modules for CMA",
+            "description": "Starter modules and extensions for CMA",
             "category": "official",
             "path": "packs/cma-core-pack"
         }
