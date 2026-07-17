@@ -1,24 +1,16 @@
 {
-    "store_version": "4.1.0",
-
-    "store_name": "CMA PUH STORE",
-
-    "author": "Federico Nassi",
-
+    "store_version": "4.2.0",
+    "cma_min_version": "4.2.0",
     "packages": [
-
         {
             "name": "cma-core-pack",
-
             "display_name": "CMA Core Pack",
-
             "version": "1.1.0",
-
             "author": "Federico Nassi",
-
             "description": "Starter PUH modules and tools for CMA",
-
             "category": "official",
+
+            "type": "puh",
 
             "contains": [
                 "puh"
@@ -31,29 +23,29 @@
             "files": [
                 {
                     "name": "example.puh",
-
                     "type": "puh",
-
-                    "sha256": "",
-
-                    "size": 0
+                    "sha256": "REPLACE_WITH_SHA256"
                 }
+            ],
+
+            "changelog": [
+                "Updated package metadata",
+                "Added CMA 4.2 compatibility",
+                "Added integrity verification support"
             ]
         },
 
 
         {
             "name": "cma-official-extensions",
-
             "display_name": "CMA Official Extensions",
-
             "version": "1.1.0",
-
             "author": "Federico Nassi",
-
             "description": "Official DIH extensions for CMA",
 
             "category": "official",
+
+            "type": "dih",
 
             "contains": [
                 "dih"
@@ -63,8 +55,12 @@
 
             "requires": [],
 
-            "files": []
-        }
+            "files": [],
 
+            "changelog": [
+                "Updated DIH compatibility",
+                "Improved extension loading"
+            ]
+        }
     ]
 }
