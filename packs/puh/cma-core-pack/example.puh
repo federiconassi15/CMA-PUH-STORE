@@ -1,0 +1,9 @@
+[MODULE]
+name=example
+version=1.0
+author=CMA Store
+description=Example store module
+category=misc
+
+[CODE]
+result = "Hello from CMA PUH Store"
