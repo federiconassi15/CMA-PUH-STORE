@@ -1,29 +1,70 @@
 {
-    "store_version": "4.0.0",
-    "packs": [
+    "store_version": "4.1.0",
+
+    "store_name": "CMA PUH STORE",
+
+    "author": "Federico Nassi",
+
+    "packages": [
+
         {
             "name": "cma-core-pack",
+
             "display_name": "CMA Core Pack",
-            "version": "1.0.0",
+
+            "version": "1.1.0",
+
             "author": "Federico Nassi",
-            "description": "Starter modules and tools for CMA",
+
+            "description": "Starter PUH modules and tools for CMA",
+
             "category": "official",
+
             "contains": [
                 "puh"
             ],
-            "path": "packs/puh/cma-core-pack"
+
+            "path": "packs/puh/cma-core-pack",
+
+            "requires": [],
+
+            "files": [
+                {
+                    "name": "example.puh",
+
+                    "type": "puh",
+
+                    "sha256": "",
+
+                    "size": 0
+                }
+            ]
         },
+
+
         {
             "name": "cma-official-extensions",
+
             "display_name": "CMA Official Extensions",
-            "version": "1.0.0",
+
+            "version": "1.1.0",
+
             "author": "Federico Nassi",
+
             "description": "Official DIH extensions for CMA",
+
             "category": "official",
+
             "contains": [
                 "dih"
             ],
-            "path": "packs/dih/cma-official-extensions"
+
+            "path": "packs/dih/cma-official-extensions",
+
+            "requires": [],
+
+            "files": []
         }
+
     ]
 }
