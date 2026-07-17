@@ -1,5 +1,5 @@
 {
-    "store_version": "2.0.0",
+    "store_version": "4.0.0",
     "packs": [
         {
             "name": "cma-core-pack",
@@ -11,7 +11,7 @@
             "contains": [
                 "puh"
             ],
-            "path": "packs/cma-core-pack/puh"
+            "path": "packs/puh/cma-core-pack"
         },
         {
             "name": "cma-official-extensions",
@@ -23,7 +23,7 @@
             "contains": [
                 "dih"
             ],
-            "path": "packs/cma-official-extensions/dih"
+            "path": "packs/dih/cma-official-extensions"
         }
     ]
 }
